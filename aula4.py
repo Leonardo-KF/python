@@ -10,7 +10,3 @@
 ingresso = [0,15,30]
 counter = 0
 
-for i in ingresso:
-    pergunta = int(input('Qual sua idade: '))
-    if pergunta < 3:
-        print('')
