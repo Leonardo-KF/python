@@ -48,6 +48,7 @@ Fernando doou 50,00
 #### Implemente um programa para cadastrar o nome das pessoas que doaram. O programa deve embaralhar a lista, sortear o ganhador e imprimir seu nome. 
 
 #### Imprima na tela um teste do seu programa utilizando como primeiro doador o seu nome e os dois últimos dígitos do seu RU para o valor doado. Não se esqueça de imprimir também a lista de sorteio.  
+---
 
 ### EXERCÍCIO 4 
 
@@ -55,8 +56,12 @@ Fernando doou 50,00
 
 Código|Estoque|Mínimo
 :--:  |:--:   |:--:
-1     |35     |20
+<span style="color:red">1</span>     |<span style="color:green">35</span>     |<span style="color:blue">20</span>
 5     |75     |50
 2     |43     |45
 3     |26     |18
-20    |35     |20
+20    |35     |20  
+
+#### Armazene as informações acima em uma estrutura de lista com dicionário, substituindo a primeira linha com os dados: no campo código coloque o primeiro digito do seu RU, no estoque os dois dígitos seguintes de seu RU, e no campo mínimo os dois últimos dígitos do seu RU. Por exemplo, tendo o RU: <span style="color:red">1</span><span style="color:green">23</span>4<span style="color:blue">56</span> 
+
+#### As informações devem ser inseridas no dicionário via teclado. Ao digitar o código 0 (zero), o programa interrompe a leitura e se encerra. Ordene os produtos em ordem crescente de código. Imprima na tela um teste do seu programa usando como primeiro cadastro o primeiro digito do seu RU, como estoque os dois dígitos seguintes de seu RU, e como mínimo os dois últimos dígitos do seu RU.
