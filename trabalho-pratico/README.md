@@ -43,8 +43,20 @@ Fernando doou 50,00
 
 #### A lista de sorteio estará com os valores: 
 
-ListaSorteio = [‘Ruth’, ‘Ruth’, ‘Maria’, ‘Maria’, ‘Maria’, ’Fernando’, ’Fernando’, ’Fernando’, ’Fernando’, ’Fernando’] 
+`ListaSorteio = [‘Ruth’, ‘Ruth’, ‘Maria’, ‘Maria’, ‘Maria’, ’Fernando’, ’Fernando’, ’Fernando’, ’Fernando’, ’Fernando’]` 
 
 #### Implemente um programa para cadastrar o nome das pessoas que doaram. O programa deve embaralhar a lista, sortear o ganhador e imprimir seu nome. 
 
-#### Imprima na tela um teste do seu programa utilizando como primeiro doador o seu nome e os dois últimos dígitos do seu RU para o valor doado. Não se esqueça de imprimir também a lista de sorteio.
+#### Imprima na tela um teste do seu programa utilizando como primeiro doador o seu nome e os dois últimos dígitos do seu RU para o valor doado. Não se esqueça de imprimir também a lista de sorteio.  
+
+### EXERCÍCIO 4 
+
+#### Considere a tabela a seguir referente a produtos armazenados em um depósito, em que são considerados o estoque atual de cada produto e o estoque mínimo necessário.  
+
+Código|Estoque|Mínimo
+:--:  |:--:   |:--:
+1     |35     |20
+5     |75     |50
+2     |43     |45
+3     |26     |18
+20    |35     |20
