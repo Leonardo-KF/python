@@ -5,6 +5,10 @@
 # os amplificadores e a parede oposta, considerando a velocidade do som como 340m/s.
 
 def retorna_se_ha_eco_no_estudio(distancia):
-    distancia = [8, 16, 18, 24, 36]
+    dist = distancia
     veloc = 340
-    for i in distancia
+    temp = dist/veloc
+    if temp >= 0.1:
+        print('tem eco')
+    else:
+        print('não tem')
