@@ -8,22 +8,25 @@
 # arrecadado e a média de idade das pessoas.
 
 print('Sistema de venda de ingressos!')
-pes = ingresso =0
+pes = valor = total = 0
 while True:
     idade = str(input('Digite a sua idade ("sair" encerra o programa): ')).strip()
     if idade.isnumeric():
         idade = int(idade)
         pes += 1
         if idade < 3:
-            ingresso += 0
+            valor = 0
+            total += 0
         elif 3 <= idade <= 12:
-            ingresso += 15
+            valor = 15
+            total += 15
         else:
-            ingresso += 30
-        print(f'Ingresso no valor de: R${ingresso:.2f} adicionado ao carrinho com sucesso!')
+            valor = 30
+            total += 30
+        print(f'Ingresso no valor de: R${valor:.2f} adicionado ao carrinho com sucesso!')
         print('='*60)
     elif idade in 'SAIRsair':
         break
     else:
         print('Você digitou uma opção inválida! Tente novamente!')
-print(f'O numero de ingressos comprados foi {pes}! O valor total da sua compra é: R${ingresso:.2f}')
+print(f'O numero de ingressos comprados foi {pes}! O valor total da sua compra é: R${total:.2f}')
