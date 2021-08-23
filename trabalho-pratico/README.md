@@ -9,7 +9,7 @@ Nota final: 73.4
 Frase a ser exibida: O aluno Fabio José tirou nota 3.5 e se enquadra no conceito D  
 
 Nota            | Conceito
--               | :-: 
+-------         |:-------: 
 de 0,0 a 2,9    | E
 de 3,0 a 4,9    | D
 de 5,0 a 6,9    | C
