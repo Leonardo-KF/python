@@ -1,0 +1,2 @@
+### Repositório para trabalhos e exercicios da faculdade. Eventualmente pretendo colocar outros códigos em Python aqui.  
+### Fique à vontade para praticar junto comigo através de pull requests, comentários, issues, etc.
