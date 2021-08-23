@@ -8,12 +8,13 @@
 # arrecadado e a média de idade das pessoas.
 
 print('Sistema de venda de ingressos!')
-pes = valor = total = 0
+pes = valor = total = somaIdade = 0
 while True:
     idade = str(input('Digite a sua idade ("sair" encerra o programa): ')).strip()
     if idade.isnumeric():
         idade = int(idade)
         pes += 1
+        somaIdade += idade
         if idade < 3:
             valor = 0
             total += 0
@@ -29,4 +30,4 @@ while True:
         break
     else:
         print('Você digitou uma opção inválida! Tente novamente!')
-print(f'O numero de ingressos comprados foi {pes}! O valor total da sua compra é: R${total:.2f}')
+print(f'O numero de ingressos comprados foi {pes}! O valor total da sua compra é: R${total:.2f}. A média de idade dos compradores é de {somaIdade//pes} anos.')
