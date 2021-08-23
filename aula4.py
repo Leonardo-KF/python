@@ -10,7 +10,7 @@
 print('Sistema de venda de ingressos!')
 pes = ingresso =0
 while True:
-    idade = str(input('Digite a sua idade ("sair" encerra o programa)? ')).strip()
+    idade = str(input('Digite a sua idade ("sair" encerra o programa): ')).strip()
     if idade.isnumeric():
         idade = int(idade)
         pes += 1
