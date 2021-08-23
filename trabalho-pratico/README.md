@@ -16,8 +16,18 @@ de 5,0 a 6,9    | C
 de 7,0 a 8,9    | B
 de 9,0 a 10,0   | A
 
-#### Todos os dados devem ser lidos do teclado, sendo que o nome do aluno é uma string e a nota final é um número real. Não é necessário armazenar os dados em uma estrutura de dados, basta imprimir na tela. 
+#### Todos os dados devem ser lidos do teclado, sendo que o nome do aluno é uma string e a nota final é um número real. Não é necessário armazenar os dados em uma estrutura de dados, basta imprimir na tela.  
 
-#### Coloque todo o seu programa dentro de um laço de repetição e faça-o se encerrar quando uma determinada condição for satisfeita. A condição fica a seu critério, como por exemplo, encerrar o programa ao digitar a palavra sair, ou então uma nota inválida. 
+#### Coloque todo o seu programa dentro de um laço de repetição e faça-o se encerrar quando uma determinada condição for satisfeita. A condição fica a seu critério, como por exemplo, encerrar o programa ao digitar a palavra sair, ou então uma nota inválida.  
 
-#### Imprima na tela um teste do seu programa utilizando o seu nome e os dois últimos dígitos do seu RU para a nota. 
+#### Imprima na tela um teste do seu programa utilizando o seu nome e os dois últimos dígitos do seu RU para a nota.  
+---
+
+### EXERCÍCIO 2 
+
+#### Faça uma função que receba o nome e sobrenome de uma pessoa e retorne a primeira letra de seu nome e seu sobrenome, concatenando com a string @algoritmos.com.br. No algoritmo principal, deverá ser apresentada a mensagem ao usuário contendo seu nome completo e seu e-mail. Imprima na tela um teste do seu programa utilizando o seu nome e sobrenome concatenado com os dois últimos dígitos do seu RU. 
+
+Ex.: Sra. Luciane Kanashiro, seu e-mail é lkanashiro16@algoritmos.com.br.  
+
+---  
+
