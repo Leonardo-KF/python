@@ -11,6 +11,6 @@ def retorna_tempo_minimo_em_minutos(p,s,n):
     s = 50
     po = 8
     tempo_minimo = ((pe*s)/po)/60
-    print(math.ceil(tempo_minimo))
+    print(ceil(tempo_minimo))
 
 retorna_tempo_minimo_em_minutos(2749,50,8)
