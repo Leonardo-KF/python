@@ -8,7 +8,7 @@
 # arrecadado e a média de idade das pessoas.
 
 print('Sistema de venda de ingressos!')
-pes = ingresso = 0
+pes = ingresso =0
 while True:
     idade = str(input('Digite a sua idade ("sair" encerra o programa)? ')).strip()
     if idade.isnumeric():
