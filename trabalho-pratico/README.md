@@ -31,3 +31,20 @@ Ex.: Sra. Luciane Kanashiro, seu e-mail é lkanashiro16@algoritmos.com.br.
 
 ---  
 
+### EXERCÍCIO 3 
+
+#### Um canal de jogos do youtube está fazendo um sorteio para angarias doações para pessoas em situação de vulnerabilidade social. A cada 10 reais doados, o nome da pessoa é inserido em uma lista de sorteio. Por exemplo: 
+
+Ruth doou 20,00 
+
+Maria doou 30,00 
+
+Fernando doou 50,00 
+
+#### A lista de sorteio estará com os valores: 
+
+ListaSorteio = [‘Ruth’, ‘Ruth’, ‘Maria’, ‘Maria’, ‘Maria’, ’Fernando’, ’Fernando’, ’Fernando’, ’Fernando’, ’Fernando’] 
+
+#### Implemente um programa para cadastrar o nome das pessoas que doaram. O programa deve embaralhar a lista, sortear o ganhador e imprimir seu nome. 
+
+#### Imprima na tela um teste do seu programa utilizando como primeiro doador o seu nome e os dois últimos dígitos do seu RU para o valor doado. Não se esqueça de imprimir também a lista de sorteio.
