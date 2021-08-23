@@ -14,7 +14,7 @@
 #E se fosse para 17 mil pessoas, quantas pessoas gostariam de ver shows de apenas um palco?
 
 def retorna_pessoas_preferem_um_unico_palco(quantidade_pessoas_evento):
-
+    
 
 
 
