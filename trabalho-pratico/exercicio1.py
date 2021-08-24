@@ -1,6 +1,18 @@
-nomeAluno = input('Digite o nome do aluno: ')
-notaFinal = input('Digite a nota final do aluno: ')
-
-print(f'Nome do aluno: {nomeAluno}')
-print(f'Nota final: {notaFinal}')
-print(f'O aluno {nomeAluno} tirou {notaFinal:.1f} e se enquadra no conceito X')
+while True:
+    print('Entre com o nome e nota final do aluno. Digite \'S\' para sair.')
+    nomeAluno = input('Digite o nome do aluno: ')
+    if nomeAluno == 'S':
+        print('Saindo...')
+        break
+    elif nomeAluno.isalpha() == True and nomeAluno.isspace() == False:
+        print(f'Nome do aluno: {nomeAluno}')
+    else:
+        print('Nome inválido, tente novamente.')
+    notaFinal = input('Digite a nota final: ')
+    if notaFinal.isalpha() == True and notaFinal == 'S':
+        print('Saindo...')
+        break
+    elif notaFinal.isalnum() == True:
+        print('Nota inválida, tente novamente')
+    else:
+        print(f'Nota final: {notaFinal:.1f}')
