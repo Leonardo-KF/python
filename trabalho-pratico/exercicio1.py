@@ -1,18 +1,25 @@
 while True:
     print('Entre com o nome e nota final do aluno. Digite \'S\' para sair.')
-    nomeAluno = input('Digite o nome do aluno: ')
+    nomeAluno = str(input('Digite o nome do aluno: ')).strip().upper()
+    notaFinal = ''
     if nomeAluno == 'S':
         print('Saindo...')
         break
-    elif nomeAluno.isalpha() == True and nomeAluno.isspace() == False:
-        print(f'Nome do aluno: {nomeAluno}')
-    else:
-        print('Nome inválido, tente novamente.')
-    notaFinal = input('Digite a nota final: ')
-    if notaFinal.isalpha() == True and notaFinal == 'S':
+    elif nomeAluno.isalpha():
+        while True:
+            notaFinal = str(input('Digite a nota final: '))
+            if notaFinal.isnumeric():
+                notaFinal = float(notaFinal)
+            if notaFinal == 'S':
+                print('Saindo...')
+                break
+            else:
+                print('Nota inválida, tente novamente')
+    elif notaFinal == 'S':
         print('Saindo...')
         break
-    elif notaFinal.isalnum() == True:
-        print('Nota inválida, tente novamente')
     else:
-        print(f'Nota final: {notaFinal:.1f}')
+        print('Nome inválido, tente novamente.')
+
+    
+    
