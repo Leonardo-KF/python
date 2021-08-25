@@ -15,9 +15,7 @@ while True:
                 break
             else:
                 print('Nota inválida, tente novamente')
-    elif notaFinal == 'S':
-        print('Saindo...')
-        break
+            break    
     else:
         print('Nome inválido, tente novamente.')
 
